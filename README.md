@@ -1,6 +1,6 @@
 # PPMC web site
 
-Based on academia Jekyll theme and modified to suits our research group needs. Main differences with the original academia theme are in people and publication pages. Pages like CV and courses were removed because they are not necessary in this site.
+Based on academia Jekyll theme and modified to suit our research group needs. Main differences with the original academia theme are in people and publication pages. Pages like CV and courses were removed because they are not necessary in this site.
 
 ## Updating publications
 
