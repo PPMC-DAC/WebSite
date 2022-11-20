@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="row g-5 mb-5">
+  <div class="col-md-8">
+    <h3 class="fw-bold">Research</h3>
+    {{ content }}
+  </div>
+  <div class="col-md-4">
+    <img src="{{ site.url }}/assets/img/PicturePPMC.jpg" alt="Home" width="100%">
+  </div>
+</div>
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Selected publications</h3>
+      {% for item in site.data.publications %}
+        {% if item.featured %}
+        <p style="border-bottom:1px dashed #ccc;">
+          <strong>{{item.title}}</strong>
+          {%if item.doi%} [<a href="{{item.doi}}">doi</a>]{%endif%}
+          {%if item.pdf%} [<a href="{{site.url}}/{{item.pdf}}">pdf</a>]{%endif%}
+          <br>
+          {{item.author}}<br>
+          <em style="color:#C00000;">{{item.pub}}</em>, 
+          {{item.other}} <br>
+          {%if item.if%} Impact Factor: {{item.if}}; <b>{{item.rank}}</b> {%endif%}
+          </p>
+        {% endif %}
+      {% endfor %}
+  </div>
+</div>
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
+    {% for post in site.posts %}
+      <p><a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %}
+  </div>
+</div>

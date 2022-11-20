@@ -1,0 +1,6 @@
+#http://192.0.0.1:4000 o https://www.ac.uma.es/~asenjo/research
+url: "https://www.ac.uma.es/~asenjo/research" # the base hostname & protocol for your site, e.g. https://www.ac.uma.es/~asenjo/research
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "PPMC" # the name of your site, e.g. ACME Corp.
+description: "Parallel Programming Models and Compilers"
+theme: academic-jekyll-theme

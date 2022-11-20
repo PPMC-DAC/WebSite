@@ -1,0 +1,966 @@
+%PDF-1.3
+%âãÏÓ
+2 0 obj
+<<
+/Length 823
+>>
+stream
+BT
+/TT2 1 Tf
+20 0 0 20 36 649.4401 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(Automatic Iteration/Data Partitioning)Tj
+0 -0.972 TD
+(for Distributed Shared Memory Systems)Tj
+ET
+0 G
+0 J 0 j 3 w 10 M []0 d
+1 i 
+36 619.2 m
+561.6 619.2 l
+S
+BT
+14 0 0 14 36 601.2001 Tm
+(M.A. Navarro)Tj
+0 -1.0286 TD
+(R. Asenjo)Tj
+T*
+(E.L. Zapata)Tj
+/F1 1 Tf
+12 0 0 12 271.44 388.8 Tm
+(June 2000)Tj
+-6.48 -1.2 TD
+(Technical Report No: UMA-DAC-00/11)Tj
+/F2 1 Tf
+11 0 0 11 36 288 Tm
+(Published in:)Tj
+/F3 1 Tf
+1.9636 -1.44 TD
+(NATO Advanced Research Workshop on High Performance Computing: Technology and Applications)Tj
+0 -1.1127 TD
+(Cetraro, Italy, June 12-15, 2000)Tj
+/TT4 1 Tf
+22 0 0 32 36 144 Tm
+(University of Malaga)Tj
+16 0 0 16 36 122.4 Tm
+(Department of Computer Architecture)Tj
+0 -1.17 TD
+(C. Tecnologico  •  PO Box 4114  •  E-29080 Malaga  •  Spain)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 6 0 R
+/TT2 7 0 R
+/TT4 8 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 12011
+>>
+stream
+BT
+/TT2 1 Tf
+17.28 0 0 17.28 171.24 764.7001 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(Automatic)-229.2(Iteration/Data)-229.2(P)13.9(artitioning)]TJ
+-0.6111 -1.2708 TD
+[(for)-250(Distrib)20.8(uted)-229.2(Shared)-236.1(Memory)-236.1(Systems)]TJ
+10.95 0 0 10.95 221.4 709.26 Tm
+[(A.)-241.1(Na)21.9(v)21.9(arro,)-263(R.)-241.1(Asenjo)-263(and)-263(E.)-241.1(Zapata)]TJ
+0.9425 -1.2383 TD
+[(Dept.)-306.9(of)-263(Computer)-263(Architecture)]TJ
+0.7671 -1.2384 TD
+[(Uni)21.9(v)11(ersity)-274(of)-252.1(M)-54.8(´)]TJ
+6.4412 0 TD
+[(alaga,)-263(Spain)]TJ
+/T4 1 Tf
+0.12 0 0 -0.12 210.96 668.22 Tm
+(f)Tj
+/TT6 1 Tf
+9 0 0 9 215.52 668.22 Tm
+(angeles,asenjo,ezapata)Tj
+/T4 1 Tf
+0.12 0 0 -0.12 334.3393 668.22 Tm
+(g)Tj
+/TT6 1 Tf
+9 0 0 9 338.8994 668.22 Tm
+(@ac.uma.es)Tj
+/TT8 1 Tf
+12 0 0 12 277.92 632.22 Tm
+(Abstract)Tj
+/TT2 1 Tf
+10 0 0 10 83.28 606.1801 Tm
+[(Current)-240(parallelizing)-240(compilers)-240(ha)24(v)12(e)-240(reached)-240(the)-252(maturity)-240(in)-252(the)-252(detection)-240(of)-240(parallelism)-252(for)-240(re)12(gular)-240(codes.)-312(Ho)24(w-)]TJ
+-1.692 -1.2 TD
+[(e)24(v)12(er)36(,)-300(parallel)-288(code)-288(generation)-276(lea)24(v)12(e)0(s)-312(room)-276(for)-300(signi)]TJ
+/TT9 1 Tf
+20.7289 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cant)-288(impro)12(v)12(ement.)-444(F)12(o)0(r)-288(NUMA)-300(machines,)-300(where)-300(the)-300(latenc)12(y)-288(i)0(s)]TJ
+-21.285 -1.2 TD
+[(much)-252(bigger)-240(when)-264(accessing)-252(remote)-252(memories,)-264(parallel)-252(code)-252(generation)-240(should)-252(e)12(xploit)-252(the)-264(locality)-264(of)-264(memory)-240(refer)24(-)]TJ
+0 -1.188 TD
+[(ences.)-300(This)-240(means)-228(to)-252(select)-240(the)-240(suitable)-240(iteration)-228(and)-240(data)-240(distrib)24(utions)-228(which)-228(minimize)-240(the)-240(communication)-204(o)12(v)12(erhead.)]TJ
+0 -1.2 TD
+[(This)-264(is)-276(not)-264(the)-276(current)-252(direction)-252(on)-252(automatic)-264(code)-252(generation)-252(for)-252(Distrib)24(uted-Shared)-240(Memory)-252(\(DSM\))-264(Machines,)-264(b)24(u)0(t)]TJ
+0 -1.188 TD
+[(we)-240(belie)24(v)12(e)-216(that)-228(data)-240(distrib)24(ution)-216(is)-240(still)-252(the)-228(most)-228(in)]TJ
+/TT9 1 Tf
+19.9694 0 TD
+(ß)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(uence)-228(issue)-240(in)-228(the)-240(ef)]TJ
+/TT9 1 Tf
+8.0199 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cienc)12(y)-216(o)0(f)-228(the)-228(parallel)-228(code.)-288(In)-228(order)-216(to)-240(pro)12(v)12(e)]TJ
+-29.1016 -1.2 TD
+[(this)-288(af)]TJ
+/TT9 1 Tf
+2.4857 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(rmation,)-264(we)-288(ha)24(v)12(e)-264(conducted)-264(a)-276(set)-288(of)-276(e)12(xperiments,)-264(using)-276(real)-288(codes,)-276(where)-276(we)-288(ha)24(v)12(e)-264(e)12(xplored)-252(the)-288(limits)-288(of)-276(the)]TJ
+-3.0418 -1.2 TD
+[(state-of-the-art)-276(on)-288(automatic)-288(parallelization)-288(and)-288(code)-300(generation)-276(for)-288(DSM)-312(machines.)-456(W)84(e)-312(ha)24(v)12(e)-300(analyzed)-276(the)-300(parallel)]TJ
+0 -1.188 TD
+[(code)-324(generation)-300(in)-336(tw)12(o)-336(parallelizers:)-480(PF)72(A,)-336(where)-324(the)-336(tar)12(get)-324(machine)-312(w)12(a)0(s)-348(the)]TJ
+/TT11 1 Tf
+31.7228 0 TD
+[(Or)-12(igin)-384(2000)]TJ
+/TT2 1 Tf
+5.2881 0 TD
+[(,)-360(and)-324(Polaris,)-360(where)-324(the)]TJ
+-37.0109 -1.2 TD
+[(tar)12(get)-288(system)-312(w)12(a)0(s)-324(the)]TJ
+/TT11 1 Tf
+9.0311 0 TD
+[(Cr)12(a)24(y)-336(T3D)]TJ
+/TT2 1 Tf
+4.3005 0 TD
+[(.)-312(W)84(e)-312(h)0(a)24(v)12(e)-300(compared)-288(the)-300(ef)]TJ
+/TT9 1 Tf
+10.8343 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ciencies)-312(of)-300(the)-300(parallel)-300(codes)-312(generated)-276(by)-312(each)-300(paral-)]TJ
+-24.722 -1.2 TD
+[(lelizer)-264(with)-276(the)-264(codes)-264(generated)-252(by)-264(hand,)-264(in)-276(which)-264(we)-264(ha)24(v)12(e)-264(parallelized)-264(the)-264(same)-276(loops,)-264(b)24(u)0(t)-264(w)0(e)-276(h)0(a)24(v)12(e)-264(applied)-264(e)12(xplicit)]TJ
+0 -1.188 TD
+[(data)-336(distrib)24(ution)-336(techniques.)-600(The)-336(PF)72(A)-360(codes)-336(for)-348(the)]TJ
+/TT11 1 Tf
+21.7489 0 TD
+[(Or)-12(igin)-408(2000)]TJ
+/TT2 1 Tf
+5.6721 0 TD
+[(are)-348(specially)-336(inef)]TJ
+/TT9 1 Tf
+6.9896 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cient)-336(for)-336(se)24(v)12(eral)-348(reasons,)-360(b)24(u)0(t)]TJ
+-34.9668 -1.2 TD
+[(mainly)-288(because)-276(the)-300(heuristics)-288(to)-300(migrate)-288(pages)-288(are)-300(v)12(ery)-276(slo)24(w)-300(for)-288(codes)-288(with)-300(dynamic)-276(access)-300(patterns,)-300(as)-312(happens)-276(in)]TJ
+0 -1.188 TD
+[(real)-228(codes.)-288(When)-228(we)-240(use)-240(the)-228(page)-228(distrib)24(ution)-216(directi)24(v)12(e)0(s)-216(o)0(f)-228(P)0(F)72(A)0(,)-240(the)-228(ef)]TJ
+/TT9 1 Tf
+28.088 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ciencies)-228(of)-228(the)-228(resultant)-228(parallel)-228(codes)-228(are)-228(not)]TJ
+-28.6442 -1.2 TD
+[(much)-288(better)-300(because)-300(the)-312(granularity)-276(of)-300(a)-312(page)-300(\(4Kb\))-288(is)-312(not)-300(suitable)-312(for)-300(codes)-300(that)-300(require)-288(a)-312(c)12(yclic)-300(or)-300(a)-312(block-c)12(yclic)]TJ
+T*
+[(data)-288(distrib)24(ution,)-300(or)-288(codes)-288(with)-300(halo.)-456(On)-300(the)-288(contrary)60(,)-288(with)-288(the)-300(hand)-288(parallelized)-276(codes)-288(where)-288(we)-300(ha)24(v)12(e)-288(applied)-288(data)]TJ
+0 -1.188 TD
+[(distrib)24(ution)-252(techniques)-264(we)-276(achie)24(v)12(e)-264(ef)]TJ
+/TT9 1 Tf
+14.8558 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ciencies)-264(abo)12(v)12(e)-252(60%)-276(for)-264(32)-264(processors)-264(in)-276(the)]TJ
+/TT11 1 Tf
+17.9396 0 TD
+[(Or)-12(igin)-324(2000)]TJ
+/TT2 1 Tf
+5.2281 0 TD
+[(.)-408(O)0(n)-264(the)-276(other)-264(hand,)]TJ
+-38.5797 -1.2 TD
+[(the)-240(Polaris)-240(codes)-228(for)-240(the)-240(Cray)-228(T3D)-240(are)-240(more)-228(scalable)-240(than)-228(PF)72(A)-252(codes,)-228(because)-240(Polaris)-240(uses)-240(the)-240(BLOCK)-252(data)-240(distrib)24(u-)]TJ
+T*
+[(tion)-240(and)-252(pri)24(v)24(atization)-228(techniques.)-300(Ho)24(we)24(v)12(e)0(r)36(,)-228(this)-264(is)-264(not)-240(enough)-228(to)-252(get)-252(ef)]TJ
+/TT9 1 Tf
+28.1845 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(cient)-240(parallel)-252(codes,)-240(because)-252(Polaris)-252(partially)]TJ
+-28.7406 -1.188 TD
+[(e)12(xploits)-216(locality)-228(and)-228(it)-240(does)-228(not)-228(w)12(orry)-216(about)-228(the)-228(number)-216(of)-228(communications.)-264(In)-228(f)12(act,)-228(in)-240(the)-228(hand)-216(codes)-228(where)-228(we)-240(ha)24(v)12(e)]TJ
+0 -1.2 TD
+[(selected)-276(the)-288(data)-276(distrib)24(utions)-276(that)-276(minimize)-276(communications,)-264(we)-288(impro)12(v)12(e)-252(the)-288(Polaris)-276(ef)]TJ
+/TT9 1 Tf
+35.483 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5561 0 TD
+[(ciencies)-276(abo)12(v)12(e)-264(50%)-276(for)-276(32)]TJ
+-36.0392 -1.188 TD
+[(or)-252(more)-264(processors)-240(in)-276(the)-264(Cray)-252(T3D.)-264(The)-252(e)12(xperimental)-240(results)-264(that)-264(we)-276(ha)24(v)12(e)-252(just)-276(mentioned)-240(and)-252(that)-264(we)-264(will)-276(report)-252(in)]TJ
+0 -1.2 TD
+[(detail)-240(in)-252(this)-252(paper)36(,)-228(h)0(a)24(v)12(e)-240(pro)12(v)12(e)0(d)-216(that)-252(parallelizing)-228(compilers)-228(need)-240(to)-252(implement)-228(e)12(xplicit)-240(iteration)-240(and)-240(data)-240(distrib)24(ution)]TJ
+T*
+[(techniques)-192(such)-216(as)-216(we)-216(ha)24(v)12(e)-204(applied)-204(by)-204(hand.)-276(W)84(e)-228(belie)24(v)12(e)-204(that)-216(a)-216(parallelizing)-192(compiler)-192(can)-216(ef)24(fecti)24(v)12(ely)-192(handle)-192(the)-216(task)-216(of)]TJ
+/TT9 1 Tf
+0 -1.188 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(nding)-216(the)-240(iteration/data)-216(distrib)24(utions)-228(that)-240(minimize)-228(communications)-204(while)-240(balance)-216(the)-240(computational)-204(load)-240(as)-240(well)-240(as)]TJ
+-0.5562 -1.2 TD
+[(generating)-216(the)-240(parallel)-240(code)-240(that)-240(implements)-228(them.)-300(In)-240(order)-228(to)-240(generate)-228(the)-252(same)-240(parallel)-240(codes)-240(that)-240(we)-252(ha)24(v)12(e)-228(obtained)]TJ
+T*
+[(by)-240(hand,)-216(b)24(u)0(t)-252(with)-240(the)-240(least)-252(ef)24(fort,)-228(we)-252(ha)24(v)12(e)-228(de)24(v)12(eloped)-216(an)-240(Automatic)-228(Iteration/Data)-228(P)12(artitioning)-228(\(AIDP\))-228(method.)]TJ
+1.692 -1.188 TD
+[(The)-288(second)-276(part)-288(of)-288(the)-288(paper)-276(is)-300(de)24(v)24(oted)-276(to)-288(introducing)-252(our)-288(AIDP)-288(method.)-432(In)-276(our)-288(method)-276(we)-288(use)-288(a)-300(notation)-276(that)]TJ
+-1.692 -1.2 TD
+[(allo)24(w)-264(u)0(s)-264(t)0(o)-264(handle)-252(general)-252(af)]TJ
+/TT9 1 Tf
+11.5214 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-264(and)-252(non-af)]TJ
+/TT9 1 Tf
+5.4896 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ne)-240(access)-264(functions.)-348(W)84(e)-288(are)-264(able)-252(to)-276(analyze)-252(programs)-240(with)-264(control)]TJ
+/TT9 1 Tf
+26.8174 0 TD
+(ß)Tj
+/TT2 1 Tf
+0.5562 0 TD
+-0.024 Tc
+(ow)Tj
+-45.4969 -1.188 TD
+0 Tc
+[(statements)-324(such)-324(as)-336(conditional)-312(and)-312(iterati)24(v)12(e)-324(statements.)-552(W)84(e)-348(present)-312(a)-336(locality)-324(analysis)-324(algorithm)-312(that)-336(captures)-312(in)-336(a)]TJ
+0 -1.2 TD
+[(graph)-228(called)-240(the)]TJ
+/TT13 1 Tf
+6.5937 0 TD
+[(Locality-Communication)-204(Gr)12(aph)]TJ
+/TT2 1 Tf
+13.0304 0 TD
+(or)Tj
+/T5 1 Tf
+0.12 0 0 -0.12 273.3311 247.5 Tm
+[(LC)-5999.8(G)]TJ
+/TT2 1 Tf
+10 0 0 10 295.7711 247.5 Tm
+[(,)-252(when)-228(is)-252(possible)-240(to)-252(e)12(xploit)-228(the)-240(locality)-240(\(without)-228(communi-)]TJ
+-22.9411 -1.2 TD
+[(cations\))-264(of)-264(memory)-252(references)-252(for)-252(an)-276(array)-252(in)-276(tw)12(o)-276(nestings,)-264(and)-264(when)-264(it)-276(is)-276(not)-276(possible.)-372(In)-264(other)-264(w)12(ords,)-264(what)-276(are)-264(the)]TJ
+0 -1.188 TD
+[(conditions)-204(that)-240(iterations)-216(and)-228(data)-228(distrib)24(utions)-216(must)-240(ful)]TJ
+/TT9 1 Tf
+22.1007 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ll)-228(for)-216(the)-240(tw)12(o)-228(nestings,)-228(in)-228(such)-228(a)-240(w)12(ay)-228(that)-228(all)-240(array)-216(references)]TJ
+-22.6569 -1.2 TD
+[(are)-312(satis)]TJ
+/TT9 1 Tf
+3.3105 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed)-312(in)-312(the)-312(corresponding)-276(processor)-288(memory)60(.)-480(I)0(f)-312(i)0(t)-312(i)0(s)-324(not)-312(possible,)-312(our)-312(method)-288(can)-312(identify)-288(the)-312(communica-)]TJ
+-3.8667 -1.2 TD
+[(tion)-288(patterns.)-456(The)-288(compiler)-288(use)-300(this)-300(information)-264(to)-300(formulate)-276(a)-300(non-lineal)-276(inte)12(ger)-288(programming)-252(problem,)-288(where)-288(the)]TJ
+0 -1.188 TD
+[(objecti)24(v)12(e)-288(function)-276(is)-312(the)-312(minimization)-276(of)-300(the)-312(o)12(v)12(erhead)-264(due)-300(to)-300(communications)-276(and)-300(load)-300(unbalance.)-456(The)-300(solution)-288(of)]TJ
+0 -1.2 TD
+[(the)-252(problem)-240(allo)24(w)-264(u)0(s)-264(t)0(o)-264(select)-264(the)-252(CYCLIC\(k\))-264(iteration)-252(distrib)24(ution)-240(of)-252(each)-264(nesting)-252(in)-252(the)-264(code,)-252(and)-252(to)-264(b)24(uild)-252(a)-264(gener)24(-)]TJ
+0 -1.188 TD
+[(alized)-264(bidimensional)-240(block-c)12(yclic)-252(data)-264(distrib)24(ution)-252(for)-264(each)-264(array)-252(in)-276(the)-276(code.)-360(Finally)60(,)-276(w)0(e)-264(will)-288(sho)24(w)-264(h)0(o)24(w)-264(to)-264(generate)]TJ
+0 -1.2 TD
+[(the)-264(communications,)-228(using)-264(the)]TJ
+/TT6 1 Tf
+12.4902 0 TD
+(put)Tj
+/TT2 1 Tf
+2.0643 0 TD
+[(primiti)24(v)12(e)-252(and)-252(ho)24(w)-264(t)0(o)-264(generate)-252(the)-264(parallel)-252(code)-252(that)-276(implement)-240(the)-264(iteration/data)]TJ
+-14.5545 -1.2 TD
+[(distrib)24(utions)-276(that)-300(we)-288(ha)24(v)12(e)-288(found)-276(with)-288(our)-288(method.)-432(The)-288(resulting)-276(iteration/data)-276(distrib)24(utions)-288(obtained)-276(by)-288(our)-276(method)]TJ
+0 -1.188 TD
+[(are)-228(the)-240(same)-240(that)-240(we)-240(were)-240(using)-228(in)-240(our)-228(hand)-228(parallelized)-228(codes.)-288(That)-240(w)12(a)0(y)-228(w)0(e)-252(achie)24(v)12(e)-216(the)-240(same)-240(e)12(xcelent)-228(performances)]TJ
+0 -1.2 TD
+[(b)24(u)0(t)-240(n)0(o)24(w)60(,)-228(automatically)60(.)]TJ
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 7 0 R
+/TT6 14 0 R
+/TT8 15 0 R
+/TT9 16 0 R
+/TT11 17 0 R
+/TT13 18 0 R
+/T4 19 0 R
+/T5 20 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+22 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+24 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+25 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+26 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 32
+/FontBBox [-166 -225 1000 931]
+/FontName /Helvetica
+/ItalicAngle 0
+/StemV 88
+/XHeight 523
+/StemH 88
+>>
+endobj
+27 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+28 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 740
+/CapHeight 740
+/Descent -192
+/Flags 32
+/FontBBox [-113 -222 1148 955]
+/FontName /AvantGarde-Book
+/ItalicAngle 0
+/StemV 70
+/XHeight 547
+/StemH 70
+>>
+endobj
+29 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 737
+/CapHeight 722
+/Descent -205
+/Flags 34
+/FontBBox [-195 -250 1000 965]
+/FontName /NewCenturySchlbk-Roman
+/ItalicAngle 0
+/StemV 92
+/XHeight 464
+/StemH 45
+>>
+endobj
+30 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 737
+/CapHeight 722
+/Descent -205
+/Flags 98
+/FontBBox [-166 -250 994 958]
+/FontName /NewCenturySchlbk-Italic
+/ItalicAngle -16
+/StemV 80
+/XHeight 466
+/StemH 45
+>>
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /ImageB ]
+>>
+endobj
+19 0 obj
+<<
+/Name /T4
+/Type /Font
+/Subtype /Type3
+/Resources 31 0 R
+/FontBBox [5 -19 32 56]
+/FontMatrix [1 0 0 -1 0 0]
+/FirstChar 102
+/LastChar 103
+/Encoding 32 0 R
+/CharProcs 33 0 R
+/Widths [38 38 ]
+/ToUnicode 34 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Encoding
+/Differences [102/f /g ]
+>>
+endobj
+33 0 obj
+<<
+/f 35 0 R
+/g 36 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 385
+>>
+stream
+38 0 5 -19 32 56 d1
+q
+27 0 0 75 5.1 -19.1 cm
+BI
+/W 27
+/H 75
+/BPC 1
+/IM true
+ID ÿÿøÿÿÀÿÿÿÿüÿÿøÿÿğÿÿğ?ÿÿà?ÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿÀÿÿÀÿÿÿÿÿÿÿÿüÿÿ€ÿÿ ÿÿÿ€ÿÿüÿÿÿÿÿÿÿÿÿÀÿÿÿÀÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿà?ÿÿğ?ÿÿğÿÿøÿÿüÿÿÿÿÿÿÀÿÿø
+EI
+Q
+endstream
+endobj
+36 0 obj
+<<
+/Length 385
+>>
+stream
+38 0 5 -19 32 56 d1
+q
+27 0 0 75 5.1 -19.1 cm
+BI
+/W 27
+/H 75
+/BPC 1
+/IM true
+ID ÿÿÿ ?ÿÿøÿÿşÿÿÿÿÿÿ€ÿÿÿÀÿÿÿÀÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿà?ÿÿğ?ÿÿøÿÿüÿÿşÿÿÿ€?ÿÿàÿÿ€?ÿşÿÿüÿÿøÿÿğ?ÿÿà?ÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿàÿÿÀÿÿÀÿÿÿ€ÿÿÿÿÿşÿÿøÿÿ ?ÿÿÿÿÿ
+EI
+Q
+endstream
+endobj
+37 0 obj
+<<
+/ProcSet [/PDF /ImageB ]
+>>
+endobj
+20 0 obj
+<<
+/Name /T5
+/Type /Font
+/Subtype /Type3
+/Resources 37 0 R
+/FontBBox [3 -2 62 59]
+/FontMatrix [1 0 0 -1 0 0]
+/FirstChar 67
+/LastChar 76
+/Encoding 38 0 R
+/CharProcs 39 0 R
+/Widths [59 0 0 0 65 0 0 0 0 57 ]
+/ToUnicode 40 0 R
+>>
+endobj
+38 0 obj
+<<
+/Type /Encoding
+/Differences [67/C 71/G 76/L ]
+>>
+endobj
+39 0 obj
+<<
+/C 41 0 R
+/G 42 0 R
+/L 43 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 571
+>>
+stream
+59 0 4 -2 62 59 d1
+q
+58 0 0 61 4.1 -2.1 cm
+BI
+/W 58
+/H 61
+/BPC 1
+/IM true
+ID ÿÿÿÿ ş?ÿÿÿğ ş?ÿÿÿ€ üÿÿş øÿÿøÿğğÿÿàÿø`ÿÿÀÿü@ÿÿÿ ÿÿş ÿÿşÿÿÿ ÿÿüÿÿÿ ÿÿøÿÿÿÿÿğÿÿÿÿÿà?ÿÿÿÿÿÀÿÿÿÁÿÿ€ÿÿÿÃÿÿ ÿÿÿÿÃÿÿÿÿÿÿÃÿşÿÿÿÿÃÿüÿÿÿÿÇÿüÿÿÿÿÇÿøÿÿÿÿÇÿğÿÿÿÿÇÿğÿÿÿÿÏÿàÿÿÿÿÏÿàÿÿÿÿÿÿàÿÿÿÿÿÿÀ?ÿÿÿÿÿÿÀ?ÿÿÿÿÿÿÀ?ÿÿÿÿÿÿ€?ÿÿÿÿÿÿ€ÿÿÿÿÿÿ€ÿÿÿÿÿÿ€ÿÿÿÿÿÿ ÿÿÿÿÿÿ ÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿ ÿÿÿÿüÿÿ ÿÿÿÿüÿÿ ÿÿÿÿøÿÿ ÿÿÿÿùÿÿ ÿÿÿÿùÿÿ€ÿÿÿÿñÿÿ€ÿÿÿÿóÿÿ€ÿÿÿÿãÿÿ€ÿÿÿÿÇÿÿÀÿÿÿÇÿÿÀÿÿÿÿÿàÿÿÿÿÿà?ÿÿş?ÿÿğÿÿüÿÿğÿÿøÿÿøÿÿñÿÿÿüÿÿÃÿÿÿşÿÿ‡ÿÿÿÿ ÿşÿÿÿÿÀğ?ÿÿÿÿğ  ÿÿÿÿÿü ÿÿÿÿÿÿ€?ÿÿÿÿ
+EI
+Q
+endstream
+endobj
+42 0 obj
+<<
+/Length 571
+>>
+stream
+65 0 3 -2 62 59 d1
+q
+59 0 0 61 3.1 -2.1 cm
+BI
+/W 59
+/H 61
+/BPC 1
+/IM true
+ID ÿÿÿÿ ÿÿÿÿğ ÿÿÿÿ€ ş?ÿÿş Áü?ÿÿøÿğø?ÿÿğÿüp?ÿÿÀ?ÿş ÿÿ€ÿÿÿ ÿşÿÿÿ ÿüÿÿÿ€ÿøÿÿÿÀÿÿğÿÿÿÀÿÿà?ÿÿÿÀÿÿÀÿÿÿàÿÿ€ÿÿÿáÿÿ ÿÿÿÿáÿÿÿÿÿÿáÿşÿÿÿÿáÿüÿÿÿÿãÿüÿÿÿÿãÿøÿÿÿÿãÿğÿÿÿÿãÿğÿÿÿÿçÿàÿÿÿÿçÿàÿÿÿÿÿÿàÿÿÿÿÿÿÀ?ÿÿÿÿÿÿÀ?ÿÿÿÿÿÿÀ?ÿÿÿÿÿÿ€?ÿÿÿÿÿÿ€ÿÿÿÿÿÿ€ÿÿÿÿÿÿ€ÿÿÿÿÿÿ ÿÿÿÿÿÿ ÿÿÿÿÿÿÿ ÿÿÿ€ ÿ ÿÿÿ  ÿ ÿÿÿ  ÿ ÿÿÿÿ€?ÿ ÿÿÿÿÀÿ ÿÿÿÿ€ÿ ÿÿÿÿ€ÿÿ ÿÿÿÿ€ÿÿ€ÿÿÿÿ€ÿÿ€ÿÿÿÿ ÿÿ€ÿÿÿÿÿÿ€ÿÿÿÿÿÀÿÿÿÿÿÀÿÿşÿÿà?ÿÿşÿÿà?ÿÿşÿÿğÿÿüÿÿğÿÿøÿÿøÿÿøÿÿüÿÿáÿÿşÿÿÃÿÿÿ€ÿ‡ÿÿÿÀø‡ÿÿÿğ  Ïÿÿÿü ÿÿÿÿÿÿÀÿÿÿÿ
+EI
+Q
+endstream
+endobj
+43 0 obj
+<<
+/Length 481
+>>
+stream
+57 0 3 0 53 57 d1
+q
+50 0 0 57 3.1 -0.1 cm
+BI
+/W 50
+/H 57
+/BPC 1
+/IM true
+ID ÿü   ÿÿÿø   ÿÿÿø  ÿÿÿÿøÿÿÿÿÿøÿÿÿÿÿøÿÿÿÿÿğÿÿÿÿÿğÿÿÿÿÿğÿÿÿÿÿğÿÿÿÿÿàÿÿÿÿÿàÿÿÿÿÿà?ÿÿÿÿÿà?ÿÿÿÿÿÀ?ÿÿÿÿÿÀ?ÿÿÿÿÿÀÿÿÿÿÿÀÿÿÿÿÿ€ÿÿÿÿÿ€ÿÿÿÿÿ€ÿÿÿÿÿÿ€ÿÿÿÿÿÿ ÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿÿÿşÿÿÿÿÿşÿÿÿÿÿşÿÿÿÿÿüÿÿÿÿÿüÿÿÿÿÿüÿÿÿÿÿüÿÿÿÿÿøÿÿÿÿÿøÿÿÿ¿ÿøÿÿÿ?ÿøÿÿÿ?ÿğÿÿş?ÿğÿÿşÿğÿÿüÿğÿÿüÿàÿÿüÿÿàÿÿøÿÿà?ÿÿùÿÿà?ÿÿñÿÿÀ?ÿÿáÿÿÀ?ÿÿãÿÿÀÿÿÃÿÿÀÿÿƒÿÿ€ÿÿÿÿ€ÿüÿÿ€ÿÿğÿÿ ÿÿ€ÿ     ÿ     ÿ     ÿ
+EI
+Q
+endstream
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 117
+/Widths [277 295 309 554 554 775 757 198 369 369 425 606 277 332 277 437 
+554 554 554 554 554 554 554 554 554 554 277 277 606 606 606 591 
+867 740 574 813 744 536 485 872 683 226 482 591 462 919 740 869 
+592 871 607 498 426 655 702 960 609 592 480 351 605 351 606 500 
+378 683 682 647 685 650 314 673 610 200 203 502 200 938 610 655 
+682 682 301 388 339 608 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /AvantGarde-Book
+/FontDescriptor 28 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 117
+/Widths [278 296 389 556 556 833 815 204 333 333 500 606 278 333 278 278 
+556 556 556 556 556 556 556 556 556 556 278 278 606 606 606 444 
+737 722 722 722 778 722 667 778 833 407 556 778 667 944 815 778 
+667 778 722 630 667 815 722 981 704 704 611 333 606 333 606 500 
+333 556 556 444 574 500 333 537 611 315 296 593 315 889 611 500 
+574 556 444 463 389 611 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /NewCenturySchlbk-Roman
+/FontDescriptor 29 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 121
+/Widths [278 333 400 556 556 833 852 278 333 333 500 606 278 333 278 606 
+556 556 556 556 556 556 556 556 556 556 278 278 606 606 606 444 
+747 704 722 722 778 722 667 778 833 407 611 741 667 944 815 778 
+667 778 741 667 685 815 704 926 704 685 667 333 606 333 606 500 
+333 574 556 444 611 444 333 537 611 333 315 556 333 889 611 500 
+574 556 444 444 352 611 519 778 500 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /NewCenturySchlbk-Italic
+/FontDescriptor 30 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 180
+/Widths [250 0 0 0 0 833 0 0 333 333 0 0 250 333 250 278 
+500 0 500 500 500 500 500 0 0 0 278 0 0 0 0 0 
+0 722 667 667 722 611 556 0 722 333 0 722 611 889 722 722 
+556 0 667 556 611 722 0 944 0 722 611 0 0 0 0 0 
+0 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 
+500 500 333 389 278 500 500 722 500 500 444 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 21 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 333 250 0 
+500 500 500 0 500 0 0 0 500 500 0 0 0 0 0 0 
+0 778 611 709 774 611 0 0 0 0 0 0 0 946 0 786 
+604 0 0 525 613 778 0 0 0 0 0 0 0 0 0 0 
+0 500 0 444 0 479 333 556 582 291 0 0 291 883 582 546 
+601 0 395 424 326 603 565 0 516 556 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 22 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 44
+/LastChar 122
+/Widths [600 0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 600 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 600 0 600 0 600 0 600 0 0 600 0 
+600 600 600 600 600 0 0 600 600 600 0 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 23 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 65
+/LastChar 116
+/Widths [722 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+500 556 444 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 444 389 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 24 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 223
+/Widths [556 556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 25 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 48
+/LastChar 121
+/Widths [556 0 556 556 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 722 722 0 0 0 0 0 0 0 0 0 0 778 
+0 0 0 0 611 0 0 0 0 0 0 0 0 0 0 0 
+0 556 0 0 0 0 0 556 0 222 0 0 0 0 556 0 
+0 0 333 0 0 0 0 0 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica
+/FontDescriptor 26 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 45
+/LastChar 121
+/Widths [333 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 667 0 0 0 722 0 0 0 0 556 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 500 0 444 0 0 0 0 500 278 0 0 278 
+722 500 500 500 0 389 0 278 500 0 0 0 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 27 0 R
+>>
+endobj
+34 0 obj
+<<
+/Filter /FlateDecode
+/Length 212
+>>
+stream
+H‰TP»Â0ÜûA)•¥êK¢À·ŠDÈM‡ş=I) †X¹;Ÿ|¶Ø•û’Œqf«*ôPÒŒíY!<°1Ëh£ü„ÆªZé@s5tÛ’jyˆK;ÏÌ®›E:qbl¨	ÄúvDÕ;÷ÄÉC
+EëDìÒe‹ ¢íÇ]‡°ñrl5vN*dIBeE(Ûô¿öq<ê7üµæişIp|´h}s¨9D×“Ä†ğ{g]_ò` c%jv
+endstream
+endobj
+40 0 obj
+<<
+/Filter /FlateDecode
+/Length 227
+>>
+stream
+H‰TP±rÃ İù
+ÍuÀ‰›ËâcqM{qÒ€ìrW'ãÁaûÒë€xzÒÉºyo¼K ¿(˜tÎ[Â1LdîØ;ûXgÒ–-Ñ:‚dq;	‡ÆwªJÈÇD3¼\¯Åä'Y$ç{&ÊÛ7íã/è Xì„¬?t<ëAfÙw#ÂaÉ÷ÛÃÁâµAÒ¾G¨ŞJÅÁ(@oÿ×D¹*îùÑ$ÖÎ¢à‹ñiÅ§ŒÍŠk%xÆÖ§å/>™‰ˆ=/{X¬eSÎãsU1Äì!ñ` µâm
+endstream
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+44 0 obj
+<<
+/S /D
+>>
+endobj
+45 0 obj
+<<
+/Nums [0 44 0 R ]
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+46 0 obj
+<<
+/CreationDate (D:20221118193905+01'00')
+/ModDate (D:20221118193905+01'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+47 0 obj
+<<
+/Type /Catalog
+/Pages 10 0 R
+/PageLabels 45 0 R
+>>
+endobj
+xref
+0 48
+0000000000 65535 f 
+0000023616 00000 n 
+0000000016 00000 n 
+0000000890 00000 n 
+0000018855 00000 n 
+0000019369 00000 n 
+0000019890 00000 n 
+0000020428 00000 n 
+0000021025 00000 n 
+0000013271 00000 n 
+0000023849 00000 n 
+0000023697 00000 n 
+0000001026 00000 n 
+0000013091 00000 n 
+0000021515 00000 n 
+0000021872 00000 n 
+0000022157 00000 n 
+0000022332 00000 n 
+0000022673 00000 n 
+0000015459 00000 n 
+0000016713 00000 n 
+0000013411 00000 n 
+0000013608 00000 n 
+0000013808 00000 n 
+0000013999 00000 n 
+0000014201 00000 n 
+0000014398 00000 n 
+0000014593 00000 n 
+0000014793 00000 n 
+0000014994 00000 n 
+0000015202 00000 n 
+0000015412 00000 n 
+0000015687 00000 n 
+0000015750 00000 n 
+0000023031 00000 n 
+0000015792 00000 n 
+0000016229 00000 n 
+0000016666 00000 n 
+0000016955 00000 n 
+0000017024 00000 n 
+0000023316 00000 n 
+0000017076 00000 n 
+0000017699 00000 n 
+0000018322 00000 n 
+0000023781 00000 n 
+0000023809 00000 n 
+0000023938 00000 n 
+0000024070 00000 n 
+trailer
+<<
+/Size 48
+/Root 47 0 R
+/Info 46 0 R
+/ID [<7d36d7b0142da53afa3aedbb406daf2f><7d36d7b0142da53afa3aedbb406daf2f>]
+>>
+startxref
+24140
+%%EOF

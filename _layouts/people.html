@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h3 class="fw-bold border-bottom pb-3 mb-5">Research team</h3>
+{% for person in site.data.people.people %}
+<div class="row g-5 mb-5">
+    <div class="col-md-3">
+      <a href="{{person.url}}" target="_blank"><img src="{{ site.url }}/{{ person.image }}" alt="Person image" width="100%"></a>
+    </div>
+
+    <div class="col-md-9">
+      <h5><a href="{{person.url}}" target="_blank">{{ person.name }}</a></h5>
+      <p>{{ person.title }} | Ph.D.: {{person.phdyear}} | <a href="{{person.gscholar}}" target="_blank">G-scholar</a></p>
+      <p>{{ person.bio }}</p>
+    </div>
+
+</div>
+{% endfor %}
+
+<h3 class="fw-bold border-bottom pb-3 mb-5">PhD Students</h3>
+{% for person in site.data.people.students %}
+<div class="row g-5 mb-5">
+    <div class="col-md-3">
+      <a href="{{person.url}}" target="_blank"><img src="{{ site.url }}/{{ person.image }}" alt="Person image" width="100%"></a>
+    </div>
+
+    <div class="col-md-9">
+      <h5><a href="{{person.url}}" target="_blank">{{ person.name }}</a></h5>
+      <p>{{ person.title }}</p>
+      <p>Degree: {{person.degree}}</p>
+      <p>{{ person.bio }}</p>
+    </div>
+
+</div>
+{% endfor %}
+
+<h3 class="fw-bold border-bottom pb-3 mb-5">Current collaborators</h3>
+{% for person in site.data.people.collaborators %}
+<div class="row g-5 mb-5">
+    <div class="col-md-3">
+      <a href="{{person.url}}" target="_blank"><img src="{{ site.url }}/{{ person.image }}" alt="Person image" width="100%"></a>
+    </div>
+
+    <div class="col-md-9">
+      <h5><a href="{{person.url}}" target="_blank">{{ person.name }}</a></h5>
+      <p>{{ person.title }}</p>
+      <p>{{ person.bio }}</p>
+    </div>
+
+</div>
+{% endfor %}
+
+<h3 class="fw-bold border-bottom pb-3 mb-5">Former PhD Students</h3>
+{% for person in site.data.people.former %}
+<div class="row g-5 mb-5">
+    <div class="col-md-3">
+      <a href="{{person.url}}" target="_blank"><img src="{{ site.url }}/{{ person.image }}" alt="Person image" width="100%"></a>
+    </div>
+
+    <div class="col-md-6">
+      <h5><a href="{{person.url}}" target="_blank">{{ person.name }}</a>
+        {% if person.linkedin %} | 
+        <a href="{{person.linkedin}}" target="_blank">
+          <img src="{{site.url}}/assets/linkedin-icon.png" alt="LinkedIn icon" width="20px">
+        </a>
+        {% endif %}
+      </h5>
+      <p>Ph.D.: {{person.phdyear}}</p>
+      <p>Firt job: <a href="{{person.urljob}}" target="_blank">{{ person.job }}</a></p>
+      
+    </div>
+
+    <div class="col-md-3">
+      <a href="{{ site.url }}/{{person.report}}" target="_blank"><img src="{{ site.url }}/{{ person.imgreport }}" alt="PDF file" width="100%"></a>
+    </div>
+
+
+</div>
+{% endfor %}

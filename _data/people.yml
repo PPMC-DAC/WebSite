@@ -1,0 +1,244 @@
+
+people:
+
+- name: Rafael Asenjo
+  role: Co-Leader
+  title: 'Professor'
+  image: assets/member-pictures/RafaelAsenjo.jpg
+  github: rasenjop
+  bio: Prof. Rafael Asenjo, is an expert in heterogeneous programming models, runtime techniques and software support tools for parallelization of irregular codes on multicore and heterogeneous architectures. He is one of the pioneers in the use and development of SYCL applications, and the parallel library oneTBB. He is Professor of Computer Architecture at the University of Malaga, where he obtained a PhD in Telecommunication Engineering in 1997. His research interests include programming models, parallel programming, heterogeneous computing, parallelization of irregular codes and energy consumption. He has been using the Intel TBB library since 2008 and over the last ten years, he has focused on productively exploiting heterogeneous chips leveraging TBB as the orchestrating framework. In 2013 and 2014 he visited UIUC to work on CPU+GPU chips. In 2015 and 2016 he also started to research into CPU+FPGA chips while visiting the University of Bristol. He served as General Chair for ACM PPoPP'16 and as an Organization Committee member as well as a Program Committee member for several HPC related conferences (PPoPP, SC, PACT, IPDPS, HPCA, EuroPar, and SBAC- PAD). Along with Michael Voss and James Reinders he co-authored the latest book (open access) on Threading Building Blocks (Pro TBB). He is oneAPI Innovator, SYCL Advisory Panel member and ACM member.
+  url: http://www.ac.uma.es/~asenjo 
+  phdyear: 1997
+  gscholar: https://scholar.google.es/citations?user=ChN_CjMAAAAJ&hl=es
+  visible: true
+
+- name: Angeles Navarro
+  role: Co-Leader
+  title: 'Professor'
+  image: assets/member-pictures/AngelesNavarro.jpg
+  github: 
+  bio: Prof. Angeles G. Navarro is the co-leader with Dr. Rafael Asenjo of the Parallel Programming Models and Compilers research group at the Dept. of Computer Architecture. Her research interest is on programming models and runtime environments for heterogeneous architectures. Her scientific production can be summarized in more than 90 publications in journals and international conferences. She has advised 7 doctoral thesis and has been the PI of 4 R+D+i competitive projects. She is an external evaluator in ANEP, a member of the Committee of experts in the ANECA, and member of the Committee of Experts in the EU FP7 and H2020 frameworks. She has carried out 11 research stays in international research centres.
+  url: https://www.ac.uma.es/~angeles
+  phdyear: 2000
+  gscholar: https://scholar.google.es/citations?user=c7tjG9cAAAAJ&hl=es
+  visible: true
+   
+- name: Javier Hormigo
+  role: Research Team
+  title: 'Professor'
+  image: assets/member-pictures/JavierHormigo.jpg
+  github: fjhormigouma
+  bio: Prof. Javier Hormigo received his B.S. and M.S. degree in  Telecommunication Engineering  in 1996 and his Ph.D. in Telecommunication Engineering in 2000, both from the University of Málaga, Spain. He has a great experience in the field of computer arithmetic and application specific digital circuits, having more than 15 publications in international Journals and participating in more than 30 international conferences in this area.  He is serving as Program Chair for ARITH23 and has served as Programm Committee member for ARITH22. His main research interests are  Fixed- and Floating-point arithmetic units, FPGA designs, hardware design for image and  signal processing, word-lenght optimization, neural networks and non-conventional arithmetics.
+  url: https://www.ac.uma.es/personal/HormigoFJ.html
+  phdyear: 2000
+  gscholar: https://scholar.google.es/citations?hl=es&user=lVpZsRsAAAAJ
+  visible: true
+
+- name: Andrés Rodríguez
+  role: Research Team
+  title: 'Associate Professor'
+  image: assets/member-pictures/AndresRodriguez.jpg
+  bio: Dr. Andrés Rodríguez Moreno has more than 20 years of experience developing parallel applications in the field of bioinformatics and other Big Data applications, and more recently smart agriculture monitoring applications in the IoT field using low power heterogeneous SoCs. His experience includes the evaluation of dynamic power management techniques at runtime to reduce energy consumption on SoCs.
+  url: https://www.ac.uma.es/personal/RodriguezA.html
+  github: AndresCampus
+  phdyear: 2000
+  gscholar: https://scholar.google.es/citations?user=z-q4tRsAAAAJ&hl=es
+  visible: true
+
+- name: Francisco Corbera
+  role: Research Team
+  title: 'Associate Professor'
+  image: assets/member-pictures/FranciscoCorbera.jpg
+  bio: Dr. Francisco Corbera Peña is an expert in compiling techniques and runtime support for parallel heterogenous systems that include accelerators. He is also one of the main developers of the HBB library that we will use in this project to develop novel dynamic task scheduling and partitioning approaches that target new ULP platforms as well as to develop the mechanisms to offload kernels to the specific accelerator built for each application.
+  url: https://www.ac.uma.es/~corbera
+  github: corbera
+  phdyear: 2001
+  gscholar: https://scholar.google.es/citations?user=8_YE6xcAAAAJ&hl=es
+  visible: true
+
+- name: Denisa Constantinescu
+  role: Research Team
+  title: 'Postdoc'
+  image: assets/member-pictures/DenisaConstantinescu.jpg
+  bio: Dr. Denisa A. Constantinescu is a former PhD. student co-advised by IP and Co-IP, currently holding a Postdoc at the ESL under the supervision of Prof. Atienza. She defended her Thesis on July 2022. She worked on an epileptic detection application based on ML for the ULP multi-core heterogeneous platform developed by the ESL. Her focus is to identify crucial architectural parameters to enable efficient execution of the algorithms of interest, while at the same time minimizing the energy consumed, and later on, to collaborate in the definition of the multi-core structure of the platform to ensure that the applications are executed with the minimum energy consumption. 
+  url: https://people.epfl.ch/denisa.constantinescu?lang=en
+  phdyear: 2022
+  gscholar: https://scholar.google.es/citations?hl=es&user=xPUE8mgAAAAJ
+  visible: true
+
+students:
+
+- name: Felipe Muñoz
+  role: Colaborator Team
+  title: 'PhD Student'
+  image: assets/member-pictures/FelipeMunoz.jpg
+  bio: Felipe Muñoz is a PhD student under a FPU grant co-advised by Rafael Asenjo and Angeles Navarro, who is working in the design and implementation of an efficient epileptic seizure detection solution using time series techniques, oneAPI and targeting ultra low power heterogeneous architectures on the Edge. 
+  url: https://www.ac.uma.es/personal/MunozF.html
+  github: FelipeMLopez
+  degree: Telecommunication Systems Engineering, MSc in High Performance Computing 
+  phdyear: 
+  visible: true
+
+- name: Cristian Campos
+  role: Technical Support Researcher
+  title: 'PhD Student'
+  image: assets/member-pictures/CristianCampos.jpg
+  bio: Cristian Campos is a PhD. student co-advised by Rafael Asenjo and Angeles Navarro, who is expected to contribute to the evaluation of applications and software proposals in the context of data massive streaming problems leveraging oneAPI and heterogeneous programming models for CPU+GPU+FPGA architectures. 
+  url: 
+  github: cricamfe
+  degree: Telecommunication Systems Engineering, MSc in High Performance Computing 
+  phdyear: 
+  visible: true
+
+collaborators:
+
+- name: José Daniel García
+  role: Research Team
+  github: jdgarciauc3m
+  title: 'Professor'
+  image: assets/member-pictures/JoseDaniel.png
+  bio: Prof. José D. García Sánchez is an expert in C++11, 14, 17 and 20 and is a member of the C++ standardization committee to which he has submitted more than 30 proposals. His contribution will be fundamental to validate the C++/SYCL implementation of our software solutions.
+  url: https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/Detalle/Organismo_C/1425027020187/1371211312027/Jose_Daniel_Garcia_Sanchez
+  phdyear: 
+  visible: true
+
+- name: José A. Mercado
+  role: Research Team
+  title: 'Professor'
+  image: assets/member-pictures/JoseMercado.jpg
+  bio: Prof. José A. Mercado is the lead of the Subtropical Cultivation research group at UMA, where genetic and microbial research is conducted over subtropical species of horticultural interest such as strawberries, mangos, and avocados. He will work as the smart agriculture monitoring application expert, providing insights about the anomalies of interest for each use case, as well as access to time series databases from the IHSM-UMA-CSIC that contain recordings of different sensors from the subtropical plantations under study.
+  url: https://www.ihsm.uma-csic.es/investigadores/23
+  phdyear: 
+  visible: true
+
+- name: Antonio J. Matas
+  role: Research Team
+  title: 'Associate Professor'
+  image: assets/member-pictures/AntonioMatas.png
+  github: ajmatas
+  bio: Dr. Antonio Matas forma parte de tres líneas de investigación relacionadas con la caracterización genotípica y fenotípica de variedades de aguacate y chirimoya, el uso de aproximaciones biotecnológicas al estudio de los factores de transcripción implicados en la maduración del fruto de fresa, y el desarrollo de herramientas para la caracterización de la calidad de semilla de adormidera. Además promueve la incorporación de nuevas tecnologías a los programas de mejora y de caracterización de la biodiversidad agrícola para facilitar su conservación.
+  url: https://www.ihsm.uma-csic.es/investigadores/211
+  phdyear: 
+  visible: true
+
+- name: David Atienza
+  role: Colaborator Team
+  title: 'Professor'
+  image: assets/member-pictures/DavidAtienza.jpg
+  bio: Prof. David Atienza Alonso is a professor of Electrical and Computer Engineering, and director of the Embedded Systems Laboratory (ESL) at EPFL, Switzerland. He received his MSc and Ph.D. degrees in computer science and engineering from UCM, Spain, and IMEC, Belgium, in 2001 and 2005, respectively. His research interests include system-level design methodologies for high-performance multi-processor system-on-chip (MPSoC) and low-power Internet-of-Things (IoT) systems, including new 2-D/3-D thermal-aware design for MPSoCs and many-core servers, ultra-low power edge AI architectures for wireless body sensor nodes and smart embedded systems, HW/SW reconfigurable systems, dynamic memory optimizations, and network-on-chip design. Dr. Atienza has co-authored more than 350 papers, one book, and 14 patents in these previous areas. He has also received several recognitions and awards, among them, the ICCAD 10-Year Retrospective Most Influential Paper Award in 2020, Design Automation Conference (DAC) Under-40 Innovators Award in 2018, the IEEE TCCPS Mid-Career Award in 2018, an ERC Consolidator Grant in 2016, the IEEE CEDA Early Career Award in 2013, the ACM SIGDA Outstanding New Faculty Award in 2012, and a Faculty Award from Sun Labs at Oracle in 2011. He has also earned several best paper awards at top conferences in the areas of electronic design automation (EDA), embedded and cyber-physical systems, and medical devices. He serves or has served as Editor-in-Chief of IEEE Trans. on CAD (T-CAD), and as associate editor of IEEE Trans. on Computers (TC), IEEE  Transactions on Emerging Topics in Computing (TETC), ACM Computing Surveys (CSUR), IEEE Design & Test of Computers (D&T), IEEE T-CAD, IEEE Transactions on Sustainable Computing (T-SUSC), ACM Journal on Emerging Technologies in Computing Systems (JETC), ACM Transactions on Embedded Computing Systems (TECS), and Elsevier Integration. He was the Technical Program Chair of DATE 2015 and General Chair of DATE 2017. He served as President of IEEE CEDA in the period 2018-2019 and was a GOLD member of the Board of Governors of IEEE CASS from 2010 to 2012. He is a Distinguished Member of ACM and an IEEE Fellow. 
+  url: https://people.epfl.ch/david.atienza
+  phdyear: 
+  visible: true
+
+former:
+
+- name: Francisco Corbera Peña
+  image: assets/member-pictures/FranciscoCorbera.jpg
+  url: https://www.ac.uma.es/~corbera
+  phdyear: 2001
+  job: Assistant Professor, Computer Architecture Dept., U. of Málaga.
+  urljob: https://www.ac.uma.es/personal/CorberaF.html
+  linkedin:
+  report: assets/formerstudents/ReportCorbera.pdf
+  imgreport: assets/formerstudents/ReportCorbera-img.png
+  visible: true
+
+- name: Sonia González Navarro
+  image: assets/formerstudents/Sonia.png
+  url: https://www.ac.uma.es/~sonia
+  phdyear: 2006
+  job: Assistant Professor, Computer Architecture Dept., U. of Málaga.
+  urljob: https://www.ac.uma.es/personal/GonzalezS.html
+  linkedin: https://www.linkedin.com/in/sonia-gonzalez-navarro-b5571544/
+  report: assets/formerstudents/ReportSonia.pdf
+  imgreport: assets/formerstudents/ReportSonia-img.png
+  visible: true
+
+- name: Adrian Tineo Cabello
+  image: assets/formerstudents/Tineo.png
+  url: https://adriantineo.com
+  phdyear: 2009
+  job: Swiss National Supercomputing Centre (CSCS).
+  urljob: http://www.cscs.ch/
+  linkedin: https://www.linkedin.com/in/adriantineo/
+  report: assets/formerstudents/ReportTineo.pdf
+  imgreport: assets/formerstudents/ReportTineo-img.png
+  visible: true
+
+- name: A. Rosa Castillo González
+  image: assets/formerstudents/Rosa.png
+  url: https://www.linkedin.com/in/arosacastillo/
+  phdyear: 2009
+  job: Annax Information Systems A.G.
+  urljob: http://www.annax.com/
+  linkedin: https://www.linkedin.com/in/arosacastillo/
+  report: assets/formerstudents/ReportRosa.pdf
+  imgreport: assets/formerstudents/ReportRosa-img.png
+  visible: true
+
+- name: Antonio J. García Ruiz
+  image: assets/formerstudents/Antonio.png
+  url: https://www.linkedin.com/in/antoniojdios/
+  phdyear: 2013
+  job:  Ericsson Spain
+  urljob: http://www.ericsson.com/es
+  linkedin: https://www.linkedin.com/in/antoniojdios/
+  report: assets/formerstudents/ReportAntonio.pdf
+  imgreport: assets/formerstudents/ReportAntonio-img.png
+  visible: true
+
+- name: Rafael Larrosa Jiménez
+  image: assets/formerstudents/Larrosa.png
+  url: https://www.scbi.uma.es/site/home/staff
+  phdyear: 2016
+  job:  Supercomputing and Bioinnovation Center
+  urljob: https://www.scbi.uma.es/site/home/staff
+  linkedin: 
+  report: assets/formerstudents/ReportLarrosa.pdf
+  imgreport: assets/formerstudents/ReportLarrosa-img.png
+  visible: true
+
+- name: Antonio Vilches Reina
+  image: assets/formerstudents/Vilches.jpg
+  url: https://www.ac.uma.es/~avilches/
+  phdyear: 2017
+  job:  ITRS
+  urljob: https://www.itrsgroup.com/
+  linkedin: https://www.linkedin.com/in/avilches/
+  report: assets/formerstudents/ReportVilches.pdf
+  imgreport: assets/formerstudents/ReportVilches-img.png
+  visible: true
+
+- name: Alejandro Villegas Fernández
+  image: assets/formerstudents/Villegas.jpg
+  url: https://www.linkedin.com/in/avillegasfdez/
+  phdyear: 2018
+  job:  Postdoc Dept. Computer Architecture
+  urljob: http://www.ac.uma.es/~avillegas/
+  linkedin: https://www.linkedin.com/in/avillegasfdez/
+  report: assets/formerstudents/ReportVillegas.pdf
+  imgreport: assets/formerstudents/ReportVillegas-img.png
+  visible: true
+ 
+
+- name: Denisa A. Constantinescu
+  image: assets/member-pictures/DenisaConstantinescu.jpg
+  url: https://www.denisa-c.com
+  phdyear: 2022
+  job: Postdoc EPFL
+  urljob: https://people.epfl.ch/denisa.constantinescu?lang=en
+  linkedin: https://www.linkedin.com/in/denisa-constantinescu/
+  report: assets/formerstudents/ReportDenisa.pdf
+  imgreport: assets/formerstudents/ReportDenisa-img.png
+  visible: true
+
+- name: José Carlos Romero Moreno
+  image: assets/formerstudents/JoseCarlos.jpg
+  url: https://www.researchgate.net/profile/Jose-Romero-Moreno
+  phdyear: 2022
+  job: Postdoc at Université Paris-Dauphine PSL.
+  urljob: https://psl.eu/en/university/schools/universite-psl/dauphine-psl
+  linkedin: https://es.linkedin.com/in/jcarlosromeromoreno
+  report: assets/formerstudents/ReportJoseCarlos.pdf
+  imgreport: assets/formerstudents/ReportJoseCarlos-img.png
+  visible: true

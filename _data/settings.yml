@@ -1,0 +1,74 @@
+menu:
+- {name: 'home', url: '/index'}
+- {name: 'people', url: '/people'}
+- {name: 'publications', url: '/publications.html'}
+- {name: 'projects', url: '/projects'}
+- {name: 'antecedents', url: '/antecedents'}
+- {name: 'contact', url: '/contact'}
+
+
+projects:
+- name: 'CooTSIoT'
+  url: 'https://cootsiot.github.io/Site/'
+  title: HW-SW co-design and optimization of Time Series based applications for IoT ultra-low power embedded devices
+  id: TED2021-131527B-I00
+  funded: MCIN/AEI /10.13039/501100011033 and by European Union Next Generation EU/PRTR
+  type: Ecological Transition and Digital Transition
+  IPs: Angeles Navarro and Rafael Asenjo
+  duration: 1/12/2022 to 30/11/2024 -- 24 months
+  groupsize: 10
+  budget: 233,680€
+
+- name: 'MArEA'
+  url: 'https://www.ac.uma.es/~angeles/Marea/'
+  title: Modelos de Programación para Aplicaciones de Analytics en Arquitecturas Emergentes
+  id: P20-00395-R
+  funded: Programa Operativo FEDER Andalucía 2014-2010. Convocatoria de 2020
+  type: Proyecto de investigación de excelencia.
+  duration: 5/10/2021 to 31/3/2023 -- 18 months
+  IPs: Mª Angeles González Navarro
+  groupsize: 8
+  budget: 74,700€
+
+- name: 'ADAHE' 
+  url: 'https://www.ac.uma.es/~asenjo/ADAHE/'
+  title: Aceleración de análisis de Datos en Arquitecturas Heterogéneas de alta eficiencia Energética.
+  id: UMA18-FEDERJA-108
+  funded: Programa Operativo FEDER Andalucía 2014-2020. Convocatoria de 2018
+  type: Proyectos de Generación de Conocimiento "Frontera" (Consolidados y Emergentes).
+  duration: 15/11/2019 a 09/06/2021 -- 30 months
+  IPs: Mª Angeles González Navarro y Rafael Asenjo Plaza
+  groupsize: 5 (equipo) + 4 (colab.)
+  budget: 70,481.30€
+
+- name: P11-TIC-8144 
+  url: https://www.ac.uma.es/~asenjo/TIC-8144/
+  title: Ténicas de aceleración de librerías y lenguajes paralelos para arquitecturas many-core y heterogéneas
+  id: P11-TIC-8144
+  funded: Consejería Innovación Ciencia y Empresa, Junta de Andalucía. Convocatoria de 2011
+  type: Proyecto de investigación de excelencia. 
+  duration: 2011 to 2015 -- 48 months
+  IPs: Mª Angeles González Navarro
+  groupsize: 6
+  budget: 90,252€
+
+- name: P08-TIC-3500
+  url: http://www.ac.uma.es/~asenjo/TIC-3500
+  title: Incremento de la Productividad en Códigos Irregulares
+  id: P08-TIC-3500
+  funded: Consejería Innovación Ciencia y Empresa, Junta de Andalucía. Convocatoria de 2008
+  type: Proyecto de investigación de excelencia. 
+  duration: 2009 to 2012 -- 48 months
+  IPs: Rafael Asenjo Plaza
+  groupsize: 5
+  budget: 163,027€
+
+social:
+- {icon: 'github', link: 'https://github.com/rasenjop'}
+- {icon: 'twitter', link: 'https://twitter.com/rasenjop'}
+- {icon: 'instagram', link: 'https://instagram.com/rasenjop'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/asenjo'}
+
+contacts:
+- {name: 'Angeles Navarro', title: 'Professor', department: 'Computer Architecture', institution: 'University of Málaga', institution_address: 'Complejo Tecnológico, Campus de Teatinos, 29071 Málaga, Spain', phone: '+34 952 13 27 91', email: 'angeles@ac.uma.es', office: '2.2.31', image: 'assets/member-pictures/AngelesNavarro.jpg', url: 'http://www.ac.uma.es/~angeles'}
+- {name: 'Rafael Asenjo', title: 'Professor', department: 'Computer Architecture', institution: 'University of Málaga', institution_address: 'Complejo Tecnológico, Campus de Teatinos, 29071 Málaga, Spain', phone: '+34 952 13 27 91', email: 'asenjo@uma.es', office: '2.2.31', image: 'assets/member-pictures/RafaelAsenjo.jpg', url: 'http://www.ac.uma.es/~asenjo'}

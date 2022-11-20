@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Research Projects led by the group</h3>
+    {% for project in site.data.settings.projects %}
+      <h4><a href="{{ project.url}}">{{ project.name }}</a></h4>
+      <ul>
+        <li>Title: {{project.title}}</li>
+        <li>PI: {{project.IPs}}</li>
+        <li>ID: {{project.id}}</li>
+        <li>Funded by: {{project.funded}}</li>
+        <li>Call type: {{project.type }}</a></li>
+        <li>Period: {{ project.duration }}</li>
+        <li>Group size: {{ project.groupsize }}</li>
+        <li>Project Funding: {{ project.budget }}</li>
+      </ul>
+    {% endfor %}
+  </div>
+</div>
