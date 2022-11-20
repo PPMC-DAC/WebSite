@@ -2,6 +2,8 @@
 
 Based on academia Jekyll theme and modified to suit our research group needs. Main differences with the original academia theme are in people and publication pages. Pages like CV and courses were removed because they are not necessary in this site.
 
+The site is currently published [here](https://www.ac.uma.es/~asenjo/research/index)
+
 ## Updating publications
 
 Add the required entries in _data/publications.yml (title, authors, pub, other and id fields are compulsory)
