@@ -2,7 +2,7 @@
   author: 'J.C. Romero, A. Navarro, A. Rodriguez, R. Asenjo'
   pub: "Future Generation Computer Systems"
   other: "Accepted on Nov. 2022"
-  id: 'UMA-DAC-22/3'
+  id: 'UMA-DAC-22/4'
   name: 'FGCS2022'
   doi: 
   year: '2022'
@@ -11,6 +11,16 @@
   rank: 10/109, Q1 (JCR 2021)
   type: journal
   featured: true
+
+- title: 'Estrategias de optimización de un algoritmo de streaming usando oneAPI para arquitecturas CPU+GPU'
+  author: 'Cristian Campos, Ángeles Navarro, José Carlos Romero, Andrés Rodríguez, Rafael Asenjo'
+  pub: "Jornadas SARTECO 2022"
+  other: "Alicante, 21 a 23 de Septiembre de 2022"
+  id: 'UMA-DAC-22/3'
+  name: 'JP2022'
+  year: '2022'
+  count: 
+  type: conference
 
 - title: 'Enabling Easier Programming of Machine Learning Algorithms on Robots with oneAPI Toolkits'
   author: 'Denisa-Andreea Constantinescu, Angeles Navarro, Rafael Asenjo, Juan-Antonio Fernández-Madrigal and Ana Cruz-Martín'
