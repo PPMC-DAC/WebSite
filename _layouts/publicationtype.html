@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-1">{{page.title}}</h3>
+  </div>
+</div>    
+
+<ol class='start'>
+  {% for item in site.data.publications %}
+    {% if item.year != oldyear %}
+        {% assign oldyear = item.year %}
+        </ol>
+        <div class="row g-0 mb-0"">
+          <div class="col-md-12">
+            <h5 class="fw-bold">{{ item.year }}</h5>
+          </div>
+        </div>
+        <ol class="continue">
+    {% endif %}
+    {% if item.type == page.pubtype %}
+      <div class="row g-0 mb-0">
+        <div class="col-md-12">
+          <li><a id="{{item.id}}">{{item.id}}</a>
+              {%if item.doi%} [<a href="{{item.doi}}">doi</a>]{%endif%}
+              {%if item.pdf%} [<a href="{{site.url}}/publications/{{item.pdf}}">pdf</a>]{%endif%}
+              {%if item.pdf2%} [<a href="{{site.url}}/publications/{{item.pdf2}}">pdf</a>]{%endif%}
+              <p style="border-bottom:1px dashed #ccc;">
+                  {% if item.url %} <a href="{{item.url}}"><strong>{{item.title}}</strong></a>
+                  {% else %} <strong>{{item.title}}</strong>
+                  {% endif %}
+                  <br>
+                  {{item.author}}<br>
+                  <em style="color:#C00000;">{{item.pub}}</em>, 
+                  {{item.other}} <br>
+                  {%if item.if%} Impact Factor: {{item.if}}; <b>{{item.rank}}</b> {%endif%}
+              </p>
+          </li>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</ol>
+

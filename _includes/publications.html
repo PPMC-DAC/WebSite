@@ -6,27 +6,27 @@
 
     <div class="row g-3 mb-1">
       <div class="col-md-2">
-        <a href="publications/journals.html">
+        <a href="journals.html">
         <img src="{{site.url}}/assets/pub-types/journal.jpg" alt="Icon" width="30px"> Journals
         </a>  
       </div>
       <div class="col-md-2">
-        <a href="publications/conferences.html">
+        <a href="conferences.html">
         <img src="{{site.url}}/assets/pub-types/conference.jpg" alt="Icon" width="30px"> Conferences
         </a>  
       </div>
       <div class="col-md-2">
-        <a href="publications/technical.html">
+        <a href="technical.html">
         <img src="{{site.url}}/assets/pub-types/technical.jpg" alt="Icon" width="30px"> Tech. Rep.
         </a>  
       </div>
       <div class="col-md-2">
-        <a href="publications/keynotes.html">
+        <a href="keynotes.html">
         <img src="{{site.url}}/assets/pub-types/keynote.jpg" alt="Icon" width="30px"> Keynotes
         </a>  
       </div>
       <div class="col-md-2">
-        <a href="publications/others.html">
+        <a href="others.html">
         <img src="{{site.url}}/assets/pub-types/other.jpg" alt="Icon" width="30px"> Others
         </a>  
       </div>
@@ -35,41 +35,37 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">&nbsp;</h3>
 
     {% for item in site.data.publications %}
-    <div class="row g-3 mb-1">
       {% if item.year != oldyear %}
         {% assign oldyear = item.year %}
-      <div class="col-12">
-        <h4 class="fw-bold">{{ item.year }}</h4>
-      </div>
+        <div class="row g-3 mb-1">
+          <div class="col-12">
+            <h4 class="fw-bold">{{ item.year }}</h4>
+          </div>
+        </div>
       {% endif %}
-      <div class="col-md-1">
-       <!-- {% if item.type == "journal" %}
-        <img src="{{site.url}}/assets/pub-types/Journal" alt="Icon" width="80%">
-        {% endif %} --> 
-        
-        <img src="{{site.url}}/assets/pub-types/{{item.type}}.jpg" id="{{item.id}}" alt="Icon" width="50%"><br>
-        {%if item.doi%} [<a href="{{item.doi}}">doi</a>]{%endif%}
-        {%if item.pdf%} [<a href="{{site.url}}/publications/{{item.pdf}}">pdf</a>]{%endif%}
-        {%if item.pdf2%} [<a href="{{site.url}}/publications/{{item.pdf2}}">pdf</a>]{%endif%}
-        {%if item.longpdf%} [<a href="{{site.url}}/publications/{{item.longpdf}}">pdf</a>]{%endif%}
-        
+      <div class="row g-3 mb-1">
+        <div class="col-md-1">        
+          <img src="{{site.url}}/assets/pub-types/{{item.type}}.jpg" id="{{item.id}}" alt="Icon" width="50%"><br>
+          {%if item.doi%} [<a href="{{item.doi}}">doi</a>]{%endif%}
+          {%if item.pdf%} [<a href="{{site.url}}/publications/{{item.pdf}}">pdf</a>]{%endif%}
+          {%if item.pdf2%} [<a href="{{site.url}}/publications/{{item.pdf2}}">pdf</a>]{%endif%}
+          {%if item.longpdf%} [<a href="{{site.url}}/publications/{{item.longpdf}}">pdf</a>]{%endif%}
+          
+        </div>
+        <div class="col-md-11">
+          <p style="border-bottom:1px dashed #ccc;">
+            {% if item.url %} <a href="{{item.url}}"><strong>{{item.title}}</strong></a>
+            {% else %} <strong>{{item.title}}</strong>
+            {% endif %}
+            <br>
+            {{item.author}}<br>
+            <em style="color:#C00000;">{{item.pub}}</em>, 
+            {{item.other}} <br>
+            {%if item.other2%} {{item.other2}} <br>{%endif%}
+            {%if item.if%} Impact Factor: {{item.if}}; <b>{{item.rank}}</b> {%endif%}
+          </p>
+        </div>
       </div>
-      <div class="col-md-11">
-        <p style="border-bottom:1px dashed #ccc;">
-          {% if item.url %} <a href="{{item.url}}"><strong>{{item.title}}</strong></a>
-          {% else %} <strong>{{item.title}}</strong>
-          {% endif %}
-          <br>
-          {{item.author}}<br>
-          <em style="color:#C00000;">{{item.pub}}</em>, 
-          {{item.other}} <br>
-          {%if item.other2%} {{item.other2}} <br>{%endif%}
-          {%if item.if%} Impact Factor: {{item.if}}; <b>{{item.rank}}</b> {%endif%}
-        </p>
-      </div>
-
-    </div>
     {% endfor %}
-    
   </div>
 </div>
