@@ -1,7 +1,7 @@
 - title: 'SkyFlow: Heterogeneous Streaming for Skyline computation using FlowGraph and SYCL'
   author: 'J.C. Romero, A. Navarro, A. Rodriguez, R. Asenjo'
   pub: "Future Generation Computer Systems"
-  other: "Accepted on Nov. 2022"
+  other: "In Press. Available online on Nov. 2022"
   id: 'UMA-DAC-22/4'
   name: 'FGCS2022'
   doi: https://doi.org/10.1016/j.future.2022.11.021
