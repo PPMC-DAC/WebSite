@@ -35,6 +35,7 @@ layout: default
                   {{item.author}}<br>
                   <em style="color:#C00000;">{{item.pub}}</em>, 
                   {{item.other}} <br>
+                  {%if item.other2%} {{item.other2}} <br>{%endif%}
                   {%if item.if%} Impact Factor: {{item.if}}; <b>{{item.rank}}</b> {%endif%}
               </p>
           </li>

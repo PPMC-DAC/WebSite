@@ -1363,7 +1363,7 @@
   author: 'A. Navarro, F. Corbera, R. Asenjo, A. Tineo, O. Plata, E.L. Zapata'
   pub: "17th Int'l Workshop on Languages and Compilers for Parallel Computing (LCPC'2004)"
   other: "West Lafayette, Indiana, USA, September 22-25, 2004"
-  other2: "(published by Springer-Verlag, Germany, LNCS 2005, v. 3602 pp. 394-408)"
+  other2: "(published by Springer-Verlag, Germany, LNCS 2005, v. 3602 pp. 394-408, JCR Q4)"
   id: 'UMA-DAC-2004/11'
   pdf: 'UMA-DAC-04-11.pdf'
   year: '2004'
@@ -1407,7 +1407,7 @@
   author: 'F. Corbera, R. Asenjo, E. Zapata'
   pub: "15th Int'l Workshop on Languages and Compilers for Parallel Computing (LCPC'02)"
   other: "College Park, Maryland, July 25-27, 2002"
-  other2: "(published by Springer-Verlag, Germany, LNCS 2005, v. 2481 pp. 142-156)"
+  other2: "(published by Springer-Verlag, Germany, LNCS 2005, v. 2481 pp. 142-156, JCR Q4)"
   id: 'UMA-DAC-2002/13'
   pdf: 'UMA-DAC-02-13.pdf'
   year: '2002'
@@ -1462,7 +1462,7 @@
   author: 'F. Corbera, R. Asenjo, E.L. Zapata'
   pub: "13th Int'l. Workshop on Languages and Compilers for Parallel Computing (LCPC'2000)"
   other: "IBM T.J. Watson Res. Ctr., Yorktown Heights, New York, NY, August 10-12, 2000"
-  other2: "(published by Springer-Verlag, Berlin, Germany, S.P. Midkiff, J.E. Moreira, M. Gupta, S. Chatterjee, J. Ferrante, J. Prins, W. Pugh and C.-W. Tseng, Eds., LNCS no. 2017)"
+  other2: "(published by Springer-Verlag, Berlin, Germany, S.P. Midkiff, J.E. Moreira, M. Gupta, S. Chatterjee, J. Ferrante, J. Prins, W. Pugh and C.-W. Tseng, Eds., LNCS no. 2017. JCR 2001 Q3, IF: 0.415)"
   id: 'UMA-DAC-2000/33'
   pdf: 'UMA-DAC-00-33.pdf'
   year: '2000'
@@ -1552,7 +1552,7 @@
   author: 'R. Asenjo, O. Plata, J. Touriño, R. Doallo, E.L. Zapata'
   pub: "11th Int'l Workshop on Languages and Compilers for Parallel Computing (LCPC'98)"
   other: "Chapel Hill, North Carolina, pp. 230-246, August 7-9, 1998"
-  other2: "(published by Springer-Verlag, Berlin, Germany, S. Chatterjee, J.F. Prins, L. Carter, J. Ferrante, Z. Li, D. Sehr and P.-C. Yew, Eds., LNCS no. 1656)"
+  other2: "(published by Springer-Verlag, Berlin, Germany, S. Chatterjee, J.F. Prins, L. Carter, J. Ferrante, Z. Li, D. Sehr and P.-C. Yew, Eds., LNCS no. 1656. JCR 2000 Q1 IF: 0.39)"
   id: 'UMA-DAC-1998/11'
   pdf: 'UMA-DAC-98-11.pdf'
   year: '1998'
@@ -1676,7 +1676,7 @@
   author: 'R. Asenjo, E.L. Zapata'
   pub: "Int'l Conf. on High-Performance Computing and Networking"
   other: "Milan, Italy, May 3-5, 1995, pp. 690-696"
-  other2: "(published by Springer-Verlag, Berlin, Germany, B. Hertzberger and G. Serazzi, Eds., LNCS no. 919)"
+  other2: "(published by Springer-Verlag, Berlin, Germany, B. Hertzberger and G. Serazzi, Eds., LNCS no. 919, JCR 2000 IF:0.39)"
   id: 'UMA-DAC-1995/08'
   pdf: 'UMA-DAC-95-08.pdf'
   longpdf: 'UMA-DAC-95-08long.pdf'
@@ -1700,7 +1700,7 @@
   author: 'R. Asenjo, L.F. Romero, M. Ujaldón, E.L. Zapata'
   pub: "Advanced Workshop in High Performance Computing: Technology, Methods and Applications"
   other: "Cetraro, Italy, June 1994, pp. 359-377"
-  other2: "(published by Elsevier Science, Amsterdam, The Netherlands, J.J. Dongarra, L. Grandinetti, G.R. Joubert and J.Kowalik, Eds., 1995)"
+  other2: "(published by Elsevier Science, Amsterdam, The Netherlands, J.J. Dongarra, L. Grandinetti, G.R. Joubert and J.Kowalik, Eds., 1995.)"
   id: 'UMA-DAC-1994/06'
   pdf: 'UMA-DAC-94-06.pdf'
   year: '1994'
