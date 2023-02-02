@@ -364,6 +364,16 @@
   count: 
   type: conference
 
+- title: 'Time Series Collaborative Execution on CPU+GPU Chips'
+  author: 'J.C. Romero, A. Navarro, A. Rodriguez, R. Asenjo, C. Murray'
+  pub: "HPC-Europa3 Transnational Access Visitors Meeting (TAM'18)"
+  other: "Edinburgh (UK), October 2018"
+  id: 'UMA-DAC-18/10'
+  name: 'HPCEuropa3'
+  year: '2018'
+  url: 'http://www.hpc-europa.eu/TAM_1'
+  type: conference
+
 
 - title: 'Explotando el nuevo módulo OpenCL de Intel TBB'
   author: 'José Carlos Romero, Alejandro Villegas, Angeles Navarro, Andrés Rodríguez, Rafael Asenjo'
