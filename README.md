@@ -64,7 +64,7 @@ Or install it yourself as:
 
 ### Layouts
 
-The following sections describe usage instructions for this Jekyll theme,including available layouts, includes, sass and/or assets.
+The following sections describe usage instructions for this Jekyll theme, including available layouts, includes, sass and/or assets.
 
 #### Home
 

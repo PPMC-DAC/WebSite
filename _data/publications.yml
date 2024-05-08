@@ -1,3 +1,18 @@
+- title: 'CPU and GPU oriented optimizations for LiDAR data processing'
+  author: 'Felipe Muñoz, Rafael Asenjo, Angeles Navarro, J. Carlos Cabaleiro'
+  pub: "Journal of Computational Science"
+  other: "May 2024"
+  id: 'UMA-DAC-24/1'
+  name: 'JCS2024'
+  doi: https://doi.org/10.1016/j.jocs.2024.102317
+  url: https://www.sciencedirect.com/science/article/pii/S1877750324001108
+  year: '2024'
+  count: 
+  if: '3.3; Category: Computer Science, Theory and Methods'
+  rank: 37/111, Q2 (JCR 2022)
+  type: journal
+  featured: true
+
 - title: 'SkyFlow: Heterogeneous Streaming for Skyline computation using FlowGraph and SYCL'
   author: 'J.C. Romero, A. Navarro, A. Rodriguez, R. Asenjo'
   pub: "Future Generation Computer Systems"
@@ -8,8 +23,8 @@
   url: https://www.sciencedirect.com/science/article/pii/S0167739X2200382X
   year: '2023'
   count: 
-  if: '7.307; Category: Computer Science, Theory and Methods'
-  rank: 10/109, Q1 (JCR 2021)
+  if: '7.5; Category: Computer Science, Theory and Methods'
+  rank: 10/111, Q1 (JCR 2022)
   type: journal
   featured: true
 
@@ -44,8 +59,8 @@
   doi: 'https://doi.org/10.1016/j.sysarc.2022.102398'
   year: '2022'
   count: 
-  if: '5.836; Category: Computer Science, Hardware & Architecture' 
-  rank: 8/54, Q1 (JCR 2021)
+  if: '4.5; Category: Computer Science, Hardware & Architecture' 
+  rank: 11/54, Q1 (JCR 2022)
   type: journal
   featured: true
 
